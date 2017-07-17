@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 15,
+    "uniqCompNum": 17,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -219,17 +219,17 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/staking-work-management-2000x1500.png",
             "bgColor": "#224687",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
+            "overlay": true,
             "overlayOpacity": 0.5,
-            "overlayColor": "#fff",
+            "overlayColor": "#000000",
             "inverse": true,
             "showTitle": true,
             "showText": true,
@@ -265,54 +265,37 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box5",
-          "_anchor": "msg-box5-8",
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-g",
           "_params": {
-            "imageSize": "61",
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "parallax": true,
+            "paddingTop": "4",
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1892361993-2000x655.jpg",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#fff",
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#222",
             "inverse": false,
-            "showTitle": false,
+            "showButtons": true,
             "showText": true,
-            "showButtons": true
+            "showTitle": true
           },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/1892361993-1400x458.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 0
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"http://www.futuragis.com/news/consolidated-mapping-staking-and-outage-management-applications-drive-responsive-customer-service/\" data-toolbar=\"-mbrBtnMove\">LEARN HOW THEY DID IT</a>",
+          "text": "Lynn Hays – Mapping Supervisor &amp; Engineering Tech, Taylor Electric Cooperative",
+          "title": "“Now, our mapping, staking and outage management’s software comes from a single vendor. And it’s so easy to use that anybody in our co-op can run it.”",
+          "_styles": {
+            "H3": {
+              "color": "#000000",
+              "font-size": "36px"
             }
-          },
-          "title": "",
-          "text": "“Now, our mapping, staking and outage management’s software comes from a single vendor. And it’s so easy to use that anybody in our co-op can run it.”.<br><i>Lynn Hays – Mapping Supervisor &amp; Engineering Tech, Taylor Electric Cooperative</i><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN HOW THEY DID IT</a>"
+          }
         },
         {
           "_tags": [
@@ -326,7 +309,7 @@
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/staking-work-management-2000x1500.png",
             "bgColor": "#c1c1c1",
             "bgColorRadio": true,
             "bgVideo": {
@@ -474,24 +457,33 @@
             ".iconbox": {
               "background-color": "#000000",
               "border-color": "#000000"
+            },
+            "P": {
+              "color": "#ffffff",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "18px"
+            },
+            "H4": {
+              "color": "#ffffff"
             }
           },
           "_name": "features7",
           "_anchor": "features7-e",
           "_params": {
             "iconsBgColor": "#000000",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/map-services-2000x1500.png",
             "bgColor": "#c1c1c1",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
+            "overlay": true,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "columns": "3",
@@ -516,8 +508,8 @@
           },
           "title1": "Data Guard",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Ensuring complete geodatabase integrity and maintaining the health of your database and your data.<br><br><br><br><br><br>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "caption1": "Ensuring complete geodatabase integrity and maintaining the health of your database and your data.<br><br><br><br><br><br><br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features7",
@@ -534,7 +526,7 @@
           "title2": "Virtual Campus",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "Affordable, accessible training opportunities are crucial to helping your staff raise their levels of productivity and efficiency. With today’s ever-evolving technologies, staying current with your software while still meeting the daily demands of your work environment can be a challenge. Virtual Campus eliminates that challenge by offering online live and on-demand training series that will help your employees increase their knowledge and proficiency without leaving the office..",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media3": {
             "iconFont": {
               "active": true,
@@ -548,8 +540,8 @@
           },
           "title3": "Custom Reports",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Something about how awesome we are at building custom reports. Custom reports can be built that would allow you the ability to generate cost estimates while using Futura Staking<br><br><br><br><br>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "caption3": "Something about how awesome we are at building custom reports. Custom reports can be built that would allow you the ability to generate cost estimates while using Futura Staking<br><br><br><br><br><br>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media4": {
             "iconFont": {
               "active": true,
