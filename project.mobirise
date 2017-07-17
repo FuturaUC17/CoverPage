@@ -459,13 +459,13 @@
               "border-color": "#000000"
             },
             "P": {
-              "color": "#ffffff",
+              "color": "#000000",
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "font-size": "18px"
             },
             "H4": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "features7",
@@ -474,17 +474,17 @@
             "iconsBgColor": "#000000",
             "paddingTop": "1",
             "paddingBottom": "2",
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/map-services-2000x1500.png",
-            "bgColor": "#c1c1c1",
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.9",
             "overlayColor": "#222",
             "columns": "3",
             "showImages": true,
@@ -509,7 +509,7 @@
           "title1": "Data Guard",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "Ensuring complete geodatabase integrity and maintaining the health of your database and your data.<br><br><br><br><br><br><br>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features7",
@@ -526,22 +526,23 @@
           "title2": "Virtual Campus",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "Affordable, accessible training opportunities are crucial to helping your staff raise their levels of productivity and efficiency. With today’s ever-evolving technologies, staying current with your software while still meeting the daily demands of your work environment can be a challenge. Virtual Campus eliminates that challenge by offering online live and on-demand training series that will help your employees increase their knowledge and proficiency without leaving the office..",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
               "name": "briefcase",
+              "family": "et-line",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "#fff",
-              "family": "et-line"
+              "color": "#ffffff"
             }
           },
           "title3": "Custom Reports",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "Something about how awesome we are at building custom reports. Custom reports can be built that would allow you the ability to generate cost estimates while using Futura Staking<br><br><br><br><br><br>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media4": {
             "iconFont": {
               "active": true,
