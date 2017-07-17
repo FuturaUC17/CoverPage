@@ -322,7 +322,7 @@
           "_anchor": "features1-d",
           "_params": {
             "columnsColor": "#224687",
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
